@@ -85,17 +85,13 @@ a {
   display: inline-block;
   width: 45px;
   margin: auto 4%;
-  box-shadow: 2px 1.8px 0px 0px rgba(69 69 69 / .8);
   transition: all .15s ease-in-out;
 }
 
 .logos-efect img:hover {
   transition: all .15s ease-in-out;
+  box-shadow: 2.5px 2px 0px 0px rgba(69 69 69 / .6);
   transform: scale(1.2);
-}
-
-#logos-redes img:active {
-  box-shadow: none;
 }
 
 
