@@ -122,15 +122,14 @@ a {
 #nav a {
   display: inline-block;
   color: #ffab00;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 1px rgba(0 0 0 / .75);
   font-weight: 600;
+  transition: all .15s ease-in-out;
 }
 
 #nav a {
   display: inline-block;
   color: #ffab00;
-  text-shadow: 2px 2px 1px rgba(0 0 0 / .75);
-  transition: all .15s ease-in-out;
 }
 
 #nav a:hover {
@@ -379,7 +378,6 @@ nav .divisor-vertical {
 
 #logos-redes-footer img {
   width: 40px;
-  border-radius: 2em;
   transition: all .15s ease-in-out;
 }
 
