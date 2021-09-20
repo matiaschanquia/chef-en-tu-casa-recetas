@@ -46,7 +46,6 @@ a {
   width: 64px;
   position: relative;
   top: 5px;
-  transform: ;
   transition: all .15s ease-in-out;
 }
 
@@ -215,6 +214,10 @@ nav .divisor-vertical {
   margin: auto 0;
 }
 
+#img-des #descripcion p {
+  text-align: justify;
+}
+
 #div-center {
   width: 85%;
   margin: 2% auto;
@@ -224,16 +227,20 @@ nav .divisor-vertical {
 
 #div-center audio {
   margin: auto 0 0 0;
-  width: 45%;
-  height: 45px;
+  width: 50%;
+  height: 42px;
   border: 2px #FFAB00 solid;
   background-color: #f1f3f4;
   box-shadow: 4px 3px 6px 1px rgba(69 69 69 / .8);
   border-radius: 1em;
 }
 
+#div-center a {
+  width: 40%;
+}
+
 #div-center a img{
-  width: 80%;
+  width: 100%;
   transition: all .15s ease-in-out;
 }
 
@@ -349,6 +356,7 @@ nav .divisor-vertical {
 #cocinero-info h5 {
   font-size: 15px;
   font-weight: 500;
+  text-align: justify;
 }
 
 
@@ -466,6 +474,13 @@ label {
   height: 25px;
 }
 
+.rows textarea {
+  max-width: 100%;
+  max-height: 100px;
+  font-size: 17px;
+  padding: 0px;
+}
+
 select {
   font-size: 16px;
   width: 234px;
@@ -474,8 +489,13 @@ select {
 
 .boton-enviar {
   font-size: 17px;
-  order: solid red 2px;
   width: 100px;
   height: 30px;
   background-color: #ffab00;
+  transition: .2s;
+}
+
+.boton-enviar:hover {
+  background-color: #db9200;
+  transition: .3s;
 }
