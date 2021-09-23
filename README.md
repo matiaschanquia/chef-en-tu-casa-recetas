@@ -4,4 +4,4 @@
 
 Este proyecto es una nueva versión del repositorio de mi receta tortilla de papas. Aqui se ha hecho un sitio web mas avanzado, con una estructura semántica. (TP 4)
 
-Se ha avanzado con la misma página y se tuvo que aplicar un diseño responsivo para su correcta visualización en los distintos dispositivos. (TP 5)
+Se ha avanzado con la misma página y se tuvo que aplicar un diseño responsivo para su correcta visualización en los distintos dispositivos. Ademas aprendimos las formas de incluir fuentes de letras externas a una página. (TP 5)
