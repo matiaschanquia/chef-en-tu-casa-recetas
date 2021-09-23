@@ -45,19 +45,18 @@ a {
   border-bottom: solid black 1px;
   padding: 0 10px 0 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 #logo-principal {
-  flex: 1;
+  flex: 1.5;
   margin: 10px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 360px;
-  max-width: 440px;
+  min-width: 270px;
 }
 
 #logo-principal img {
@@ -73,7 +72,7 @@ a {
 #logo-principal h1 {
   color: #fff;
   font-family: 'Camaleon';
-  font-size: 1.5em;
+  font-size: 120%;
   font-weight: ;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px #ffab00,
@@ -91,13 +90,20 @@ a {
   transform: scale(1.05);
 }
 
+.entre-medio {
+  flex: 1.8;
+  height: 0;
+  overflow: hidden;
+  min-width: 250px;
+}
+
 #logos-redes {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
   align-items: center;
   justify-content: center;
-  min-width: 160px;
+  min-width: 350px;
   max-width: 360px;
   margin: 10px 0;
 }
@@ -126,15 +132,16 @@ a {
 
 #nav {
   width: 100%;
-  background-color: #9C9583;
+  background-color: #9C9583ee;
   border-bottom: solid black 2px;
   padding: 8px 0;
   box-shadow: 0px -2px 1px 3px rgba(69, 69, 69, 0.3) inset;
 }
 
 #nav ol {
-  width: 90%;
+  width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -142,12 +149,17 @@ a {
 
 #nav ol li {
   display: inline-block;
+  background-color: #564627dd;
+  padding: 4px;
+  margin: 2px;
+  border-radius: 0.5em;
 }
 
 #nav a {
-  display: inline-block;
+  flex: 1;
   color: #ffab00;
   text-shadow: 2px 2px 1px rgba(0 0 0 / .75);
+  margin: 0 auto;
   text-align: center;
   font-weight: 600;
   transition: all .15s ease-in-out;
@@ -190,10 +202,10 @@ nav .divisor-vertical {
 #section {
   background-color: #CADBC8;
   flex: 3;
-  min-width: 350px;
+  min-width: 320px;
   border: rgba(69 69 69 / .8) 1px solid;
   margin: 0 10px 15px;
-  padding: 3%;
+  padding: 35px;
 }
 
 #presentacion {
@@ -335,7 +347,7 @@ nav .divisor-vertical {
   min-width: 200px;
   border: rgba(69 69 69 / .8) 1px solid;
   margin: 0 10px 15px;
-  padding: 2%;
+  padding: 35px;
 }
 
 #cocinero-info {
